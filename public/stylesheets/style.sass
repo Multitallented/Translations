@@ -2,7 +2,34 @@ body
   padding: 50px
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
 
+$blue: #00B7FF
+$highlight-green: #AABB99
+
 a
-  color: #00B7FF
-input[type=text]
+  color: $blue
+.translation-input
   width: 100%
+  &.highlight
+    background-color: $highlight-green
+.hide
+  display: none
+.right
+  float: right
+.clearfix:after
+  content: ''
+  display: block
+  clear: both
+a
+  cursor: pointer
+.progress-bar
+  width: 100%
+  border-radius: 5px
+  height: 10px
+  background-color: $highlight-green
+  overflow: hidden
+  margin-bottom: 10px
+  margin-top: 5px
+
+  .progress
+    background-color: $blue
+    height: 10px

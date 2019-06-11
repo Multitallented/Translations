@@ -1,6 +1,11 @@
 extends layout
 
 block content
+    if (message)
+        h4 #{message}
+    .right
+        a.toggle-finished Hide Finished Translations
+    .clearfix
     if (languages.length > 1)
         h4 Select Language
         select.lang-select
@@ -11,19 +16,22 @@ block content
     -   if (lang === "en") { continue; }
         div(class=lang).lang
             h4 #{lang}
+            span Progress: #{langProgress[lang].percent} (#{langProgress[lang].count} / #{langProgress[lang].max})
+            .progress-bar
+                .progress(style="width: " + langProgress[lang].percent)
             form(action="/translation", method="POST")
+                input(type="hidden", name="lang", value=lang)
                 button(type = "Submit") Save
                 - for (var key in langData["en"]) {
-                    p #{langData.en[key]}
+                    p(class=(langData[lang] && langData[lang][key] ? 'edit' : '')).translation
+                        label #{key}: #{langData.en[key]}
                         br
-                        label #{key}:&nbsp;
-                        br
-                        if (langData[lang])
-                            input(type="text", placeholder=langData[lang][key])
+                        if (langData[lang] && langData[lang][key])
+                            input(type="text", placeholder=langData[lang][key], name=key, value=langData[lang][key]).translation-input
                         else
-                            input(type="text")
+                            input(type="text", name=lang+":"+key).translation-input.highlight
                 - }
-            button(type = "Submit") Save
+                button(type = "Submit") Save
     - }
 
-    script(type="text/javascript", src="javascripts/translations.js")
+    script(type="text/javascript", src="/javascripts/translations.js")

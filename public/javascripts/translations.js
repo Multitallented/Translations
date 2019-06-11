@@ -1,6 +1,17 @@
 $('select.lang-select').change(function(event) {
   var selectedLang = $('select.lang-select').val();
-  console.log(selectedLang);
-  $('.lang').hide();
-  $('.lang.' + selectedLang).show();
+  $('.lang').addClass('hide');
+  $('.lang.' + selectedLang).removeClass('hide');
+});
+
+$('a.toggle-finished').click(function(event) {
+  event.preventDefault();
+  console.log('hi');
+  if ($('.translation.edit.hide').length < 1) {
+    $('.translation.edit').addClass('hide');
+    $('a.toggle-finished').text('Show Finished Translations');
+  } else {
+    $('.translation.edit').removeClass('hide');
+    $('a.toggle-finished').text('Hide Finished Translations');
+  }
 });
