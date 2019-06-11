@@ -29,7 +29,7 @@ block content
                         if (langData[lang] && langData[lang][key])
                             input(type="text", placeholder=langData[lang][key], name=key, value=langData[lang][key]).translation-input
                         else
-                            input(type="text", name=lang+":"+key).translation-input.highlight
+                            input(type="text", name=key).translation-input.highlight
                 - }
                 button(type = "Submit") Save
     - }
