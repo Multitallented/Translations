@@ -1,0 +1,29 @@
+extends layout
+
+block content
+    if (languages.length > 1)
+        h4 Select Language
+        select.lang-select
+            each lang in languages
+                option(value=lang) #{lang}
+
+    - for (var lang in langData) {
+    -   if (lang === "en") { continue; }
+        div(class=lang).lang
+            h4 #{lang}
+            form(action="/translation", method="POST")
+                button(type = "Submit") Save
+                - for (var key in langData["en"]) {
+                    p #{langData.en[key]}
+                        br
+                        label #{key}:&nbsp;
+                        br
+                        if (langData[lang])
+                            input(type="text", placeholder=langData[lang][key])
+                        else
+                            input(type="text")
+                - }
+            button(type = "Submit") Save
+    - }
+
+    script(type="text/javascript", src="javascripts/translations.js")
