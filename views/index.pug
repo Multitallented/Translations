@@ -1,5 +1,14 @@
 extends layout
 
 block content
+  .right
+    a(href="/login") Login
   h1= title
   p I'm not paying $45/mo for fancy Google Docs -Multi
+
+  - for (var lang in langProgress) {
+    h4 #{lang}
+    span Progress: #{langProgress[lang].percent} (#{langProgress[lang].count} / #{langProgress[lang].max})
+    .progress-bar
+      .progress(style="width: " + langProgress[lang].percent)
+  - }
