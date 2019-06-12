@@ -1,2 +1,28 @@
-name: "Dansk"
+name: Dansk
 icon: PINK_WOOL
+starter-book: Menu til Civs
+next-button: Næste
+prev-button: forrige
+language-menu: Vælg sprog
+language-set: Dit sprog er sat til $1
+back-button: Tilbage
+start-tutorial: Mål til
+start-tutorial-desc: Få penge og ting ved at fuldføre dine mål
+skip: Mål fra
+tutorial-click: Se venligst Civs guiden
+tutorial-wiki: Civs Wiki
+click-info: Klik for mere info
+guide: Guide
+guide-desc: Klik her for at se dit næste mål
+choose-path: Vælg din sti
+new-owner-town: $1 har erstattet $2 som ejer af $3
+town-bank-balance: Balance i banken $1
+town-bank-desc: Hæv penge med /cv withdraw $1 beløb
+widthdrawn-money: Du har hævet $$1 fra $2's bank
+town-tax: "By skat: $1"
+town-tax-desc: Sæt skat med /cv tax $1 beløb
+town-tax-gov-type: $1 kan ikke sætte skat
+town-tax-set: $1 skat sat til $2
+tax-too-high: Du kan ikke sætte skat til højere end $1
+town-assist-price: Din bank betalte dig $1 som tak for konstruktionen af $2
+colony-town-set: Du har sat $1 som koloni af $2

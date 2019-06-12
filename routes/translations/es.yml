@@ -1,3 +1,67 @@
 name: Español
 icon: YELLOW_WOOL
-starter-book: "Menú para Civs"
+starter-book: Menú para Civs
+next-button: Siguiente
+prev-button: Anterior
+language-menu: Selecciona un idioma
+language-set: Tu idioma ha sido establecido a $1
+back-button: Atrás
+start-tutorial: Logros activados
+start-tutorial-desc: Recibe dinero y objetos completando logros
+skip: Logros desactivados
+tutorial-click: Por favor, mira la guía de Civs
+tutorial-wiki: Wiki de Civs
+click-info: Click para más información
+guide: Guía
+guide-desc: Click aquí para ver tu siguiente objetivo
+choose-path: Elige tu camino
+new-owner-town: $1 ha sustituido a $2 como dueño de $3
+town-bank-balance: Dinero en el banco $1
+town-bank-desc: Retira dinero usando /cv withdraw $1 [cantidad]
+widthdrawn-money: Has retirado $$1 del banco de $2
+town-tax: "Impuestos de la ciudad:  $1"
+town-tax-desc: Establece impuestos usando /cv tax $1 [cantidad]
+town-tax-gov-type: $1 no puede establecer impuestos
+town-tax-set: Los impuestos de $1 han sido establecidos a $2
+tax-too-high: No puedes establecer impuestos superiores a $1
+town-assist-price: El banco de tu ciudad ha pagado $1 en agradecimiento por la construcción de tu
+  $2
+colony-town-set: Has establecido $1 como colonia de $2
+cant-build-feudal: No puedes construir una region en una ciudad feudal a menos que seas el
+  propietario de dicha ciudad.
+capitalism-voting-cost: Los votos extras cuestan $1
+voted: Has emitido tu voto por $1
+gov-type-change: $1 ha cambiado de $2 a $3
+shop: Tienda
+buy-item: En venta
+price: Precio
+buy: Comprar $1
+cancel: Cancelar
+item-bought: ¡Felicidades! Has comprado $1 por $2
+max-item: No puedes comprar más de $2 $1
+items: Objetos
+classes: Clases
+spells: Hechizos
+blueprints: Planos
+regions: Regiones
+community: Comunidad
+players: Jugadores
+towns: Ciudades
+your-towns: Tus ciudades
+wars: Guerras
+alliances: Alianzas
+money: Dinero
+points: Puntos
+killstreak: "Racha de asesinatos: $1"
+highest-killstreak: "Racha de asesinatos más alta: $1"
+kills: "Asesinatos: $1"
+deaths: "Muertes: $1"
+friends: Amigos
+confirm: Confirmar
+reject: Rechazar
+effects: Efectos
+size: Tamaño
+range: Rango
+build-reqs-title: Requisitos de construcción
+population: Población
+biomes: Biomas

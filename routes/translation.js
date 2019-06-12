@@ -28,7 +28,13 @@ function loadLanguage(lang) {
   return YAML.parse(FS.readFileSync(__dirname + "/translations/" + lang + ".yml", 'utf8'));
 }
 function saveLanguage(key, lang) {
-  FS.writeFileSync(__dirname + "/translations/" + key + ".yml", YAML.stringify(lang), 'utf8');
+  let save = {};
+  for (let translateKey in lang) {
+    if (lang[translateKey]) {
+      save[translateKey] = lang[translateKey];
+    }
+  }
+  FS.writeFileSync(__dirname + "/translations/" + key + ".yml", YAML.stringify(save), 'utf8');
 }
 
 function calcProgress(langData) {

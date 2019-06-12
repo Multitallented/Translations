@@ -1,2 +1,36 @@
-name: Melayu
+name: Bahasa Melayu
 icon: MAGENTA_WOOL
+starter-book: Menu Untuk Civs
+next-button: Seterus
+prev-button: Sebelum
+language-menu: Pilih Bahasa
+language-set: Bahasa dipilih adalah $1
+back-button: Ke Belakang
+start-tutorial: Pencapaian On
+start-tutorial-desc: Mendapat tunai dan item daripada mencapai pencapaian
+skip: Pencapaian Off
+tutorial-click: Sila tengok panduan Civs
+tutorial-wiki: Civs wiki
+click-info: Klik untuk lebih info
+guide: Panduan
+guide-desc: Klik untuk menunjuk gol seterusnya
+choose-path: Pilih jalan anda
+new-owner-town: $1 telah menggantikan $2 sebagai pemilik $3
+town-bank-balance: Baki bank $1
+town-bank-desc: Mengeluar tunai dengan /cv withdraw $1 amount
+widthdrawn-money: Anda telah mengeluarkan $$1 dari bank $2
+town-tax: Cukai bandar $1
+town-tax-desc: Tetap cukai dengan /cv tax $1 jumlah
+town-tax-gov-type: $1 tidak dibenarkan tetap cukai
+town-tax-set: Cukai $1 telah ditetap $2
+shop: Kedai
+buy-item: Dijual
+price: Harga
+buy: Beli $1
+cancel: Batal
+item-bought: Tahniah! Anda telah membeli $1 untuk $2
+max-item: Anda tidak boleh membeli lebih daripada $2 $1
+ranch-name: Kandang Lebu
+sheep_farm-name: Kandang Biri
+stables-name: Kandang Kuda
+apple_orchard-name: Kebun Buah Epal

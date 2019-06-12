@@ -293,7 +293,6 @@ tut-warrior-8: Most, hogy megépítetted a bástyád (Castle) vásárolj és ép
 tut-warrior-9: Gratulálok! Most már kiokosodtál a háborús rendszerben. Megcsináltad a harcos
   életpályát.
 tut-builder-name: Építész
-tut-builder-0: ""
 tut-builder-1: Most építsd meg a tanácsszobát (council_room).
 tut-builder-2: Most, hogy megépítetted a városod szívét, foglald le a területed. Vegyél egy
   telepet (settlement).
@@ -331,7 +330,6 @@ tut-merchant-2: Fejleszd a kunyhód kalyibára, hogy 9x9x9-es méret legyen. Hel
   ládát (hovel) a kunyhó (shack) belsejébe.
 tut-merchant-3: Rakj 384 db krumplit a kalyiba ládájába. 24 órán belül a kalyibád eladja őket
   és felfejlődik kalyiba1-re (hovel1).
-tut-merchant-4: ""
 tut-merchant-5: Itt az idő újabb fejlesztéshez. Vásárolj és tégy le egy házat (dwelling) a
   kalyiba1-en belül (hovel1).
 tut-merchant-6: A házak (dwelling) jó pénzt hoznak, de a lakások (house) többet adnak.
@@ -386,117 +384,113 @@ socialism-desc: Diktatúra + Közösen tulajdonolt szolgáltatások, farmok, bá
   lelőhelyek.
 tribalism-name: Törzsközösség
 tribalism-desc: Diktatúra + Tagok nem csatlakozhatnak nem szövetséges városokba.
-admin_graveyard-name: ""
+admin_graveyard-name: Admin Temető
 admin_graveyard-desc: Hely, ahol a város lakói újra éledhetnek és biztonságban vannak a sérülések
   ellen.
-shelter-name: ""
-shelter-desc: ""
-arrow_trap-name: ""
-arrow_trap-desc: ""
-arrow_trap_fast-name: ""
-arrow_trap_fast-desc: ""
-arrow_trap_fastest-name: ""
-arrow_trap_fastest-desc: ""
-barracks-name: ""
-barracks-desc: ""
-bell_tower-name: ""
+shelter-name: Menedék
+shelter-desc: Egy biztonságos hely, ahol a tárgyaidat tárolhatod és 30 percenként eladhatsz
+  vele kenyeret, répát, húst, krumplit.
+barracks-name: Kaszárnya
+barracks-desc: 6 házat ad a városhoz és 288 erőpontot generál naponta. Nem építhető olyan
+  városba, ahol már egy fogadó áll.
+bell_tower-name: Harangtorony
 bell_tower-desc: Értesíti a város tagjait, amikor egy betolakodó belép a városba.
-church-name: ""
+church-name: Templom
 church-desc: Egy biztonságos hely, ahol senki sem tud megsérülni és 192 erőpontot generál a
   városnak naponta.
-graveyard-name: ""
+graveyard-name: Temető
 graveyard-desc: Hely, ahol a város lakói újra éledhetnek és biztonságban vannak a sérülések
   ellen.
-hospital-name: ""
+hospital-name: Kórház
 hospital-desc: Gyógyítja a játékosokat, ha benne tartózkodnak és 192 erőpontot generál a
   városnak naponta.
-idol-name: ""
 idol-desc: Sérülési ellenállást, sebzési bónuszt ad a város tagjainak és 192 erőpontot
   generál a városnak naponta.
-jail-name: ""
-jail-desc: ""
-monument-name: ""
+jail-name: Börtön
+monument-name: Emlékmű
 monument-desc: Sérülési ellenállást, sebzési bónuszt és gyorsaságot ad a város tagjainak és
   192 erőpontot generál a városnak naponta.
-statue-name: ""
+statue-name: Szobor
 statue-desc: Sérülési ellenállást ad a város tagjainak és 192 erőpontot generál a városnak
   naponta.
-arrow_factory-name: ""
 arrow_factory-desc: Automatikusan gyárt nyilakat.
-bakery-name: ""
-bakery-desc: ""
-dye_works-name: ""
-dye_works-desc: Automatikusan gyárt színezékeket.
-flint_works-name: ""
-flint_works-desc: ""
-gold_infuser-name: ""
-gold_infuser-desc: ""
-ice_maker-name: ""
-ice_maker-desc: Automatikusan gyárt jeget.
-iron_works-name: ""
-iron_works-desc: ""
-lava_works-name: ""
-lava_works-desc: ""
-mill-name: ""
-mill-desc: ""
-stone_works-name: ""
-stone_works-desc: ""
-weapons_factory-name: ""
-weapons_factory-desc: 3 puskaporból és 5 homokból gyárt robbanóanyagokat.
-donkey_farm-desc: "Szamarakat és nyergeket készít minden órában."
-mule_farm-desc: "Öszvéreket és nyergeket készít minden órában."
-pig_pen-desc: "Automatikus malacfarm."
-rabbit_hutch-desc: "Automatikus nyúlfarm."
-sheep_farm-desc: "Automatikus birkafarm."
-stables-desc: "Lovakat és nyergeket készít minden órában."
-ender_pearl_farm-desc: "Automatikus véggyöngy farm."
-fishing_hut-desc: "Lazacot, trópusi halat, gömbhalat, tőkehalat termel 5 percenként."
-greenhouse-desc: "Virágokat termel automatikusan."
-potato_farm-desc: "Krumplit és mérgező krumplit termel 5 percenként."
-jade_mine-desc: "Jade-t készít, amelyet eladhatsz a Jade boltban. Nem építhető olyan városban, ahol van Jade bolt."
-diamond_mine-desc: "Gyémántot termel vascsákányok használatával."
-gunpowder_mine-desc: "Puskaport termel vascsákányok használatával."
-iron_mine-desc: "Vasat termel csákányok használatával."
-lapis_mine-desc: "Lazuritot termel vascsákányok használatával."
-marine_mine-desc: "Prizmarint termel csákányok használatával."
-obsidian_mine-desc: "Obszidiánt termel automatikusan."
-quartz_mine-desc: "Kvarcot termel csákányok használatával."
-npc_chalet-desc: "Ház egy falusinak. Beleszámít a város lélekszámába."
-raid_porter-desc: "Megbízható módja egy ellenséges városba bejutásának. Beüzemelése 4 perc."
-siege_machine-desc: "Egy háború alapja. Lassan csökkenti az erőpontjait a közelében lévő városnak. Beüzemelése 4 perc."
-altar-desc: "Teljes gyémántszettet, kardot, íjat, és nyilakat készít $300-ért óránként."
-blindness_trap-desc: "Vakságot, lassúságot és gyengeséget ad a nem városlakóknak. Megsemmisíti magát 30 perc múlva."
-castle-desc: "Egy vár közepe. Felépítéséhez szükséges az előörs fejlesztése. 6 erőpontot generál 15 percenként."
-catapult-desc: "TNT-t lő nagy távolságokrara nagy pontossággal."
-command_tent-desc: "Központja egy előörsnek. Segít megostromolni egy várost. 1 erőpontot generál 15 percenként."
-huntin_lodge-desc: "Ha egy táblát helyezel egy obszidián felé az áldozatod nevével és jobb egérgombbal kattintsz az obszidiánra, a játékos közelébe teleportál."
-memorial-desc: "Egy hely, ahol a város lakosai újraéledhetnek. Megelőzi a sebződést is."
-mobile_hospital-desc: "Gyógyítja a játékosokat, ha benne tartózkodnak. Megsemmisíti magát 30 perc után."
-temp_arrow_trap-desc: "Nyilakat lő a közelében álló nem városlakókra. Megsemmisíti magát 15 perc után."
-clay_quarry-desc: "Agyagot termel automatikusan."
-cobble_quarry-desc: "Zúzottkövet termel 30 másodpercenként."
-dirt_quarry-desc: "Földet termel 30 másodpercenként."
-red_sand_pit-desc: "Vörös homokot termel 30 másodpercenként."
-sand_pit-desc: "Homokot termel 30 másodpercenként."
-sifter-desc: "Földet szitál, hogy értékes tárgyakat találjon."
-jade_shop-desc: "144 Jade-t ad el a szervernek $1000-ért egy nap. Nem építhető olyan városban, ahol van Jade bánya."
-coal_shop-desc: "144 db szenet ad el a szervernek napi $432-ért."
-diamond_shop-desc: "24 db gyémántot ad el a szervernek napi $1536-ért."
-flower_shop-desc: "Virágokat ad el a szervernek napi $288-ért."
-gold_shop-desc: "288 db aranyat ad el a szervernek napi $672-ért."
-iron_shop-desc: "288 db vasat ad el a szervernek napi $576-ért."
-leather_shop-desc: "Bőrt ad el a szervernek napi $360-ért."
-keep-desc: "A második szintje az előörsnek."
-mining_colony-desc: "Letiltja a szörnyek spawnolását és gyorsítja a bányászatot."
-outpost-desc: "Az első szintje az előörsnek."
-settlement-desc: "Az első szintje a városnak."
-bank-desc: "192 erőpontot generál naponta. 64 db smaragdot ad el $640-ért."
-bath_house-desc: "192 erőpontot generál naponta."
-capitol-desc: "A város központja. 768 erőpontot generál naponta. Otthon teleportnak is használható."
-city_hall-desc: "A város központja. 576 erőpontot generál naponta. Otthon teleportnak is használható."
-council_room-desc: "A város központja. 192 erőpontot generál naponta. Otthon teleportnak is használható."
-embassy-desc: "192 erőpontot generál naponta. Otthoni teleportként is használható."
-library-desc: "192 erőpontot generál naponta. 2 db XP üveget termel 15 percenként."
-purifier-desc: "Átalakítja a rohadt húst bőrré és eltávolítja a mérget a krumplikról 15 percenként."
-smithy-desc: "Eszközöket javít jobb egérgombbal kattintással vasblokkra. 192 erőpontot generál naponta."
-town_hall-desc: "A város központja. 348 erőpontot generál naponta. Otthon teleportnak is használható."
+bakery-name: Sütöde
+mill-name: Malom
+weapons_factory-name: Fegyvergyár
+weapons_factory-desc: 3 puskaporból és 5 homokból robbanószereket gyárt
+donkey_farm-desc: Szamarakat és nyergeket készít minden órában.
+mule_farm-desc: Öszvéreket és nyergeket készít minden órában.
+pig_pen-desc: Automatikus malacfarm.
+rabbit_hutch-desc: Automatikus nyúlfarm.
+sheep_farm-desc: Automatikus birkafarm.
+stables-desc: Lovakat és nyergeket készít minden órában.
+ender_pearl_farm-desc: Automatikus véggyöngy farm.
+fishing_hut-desc: Lazacot, trópusi halat, gömbhalat, tőkehalat termel 5 percenként.
+greenhouse-desc: Virágokat termel automatikusan.
+potato_farm-desc: Krumplit és mérgező krumplit termel 5 percenként.
+jade_mine-desc: Jade-t készít, amelyet eladhatsz a Jade boltban. Nem építhető olyan városban,
+  ahol van Jade bolt.
+diamond_mine-desc: Gyémántot termel vascsákányok használatával.
+gunpowder_mine-desc: Puskaport termel vascsákányok használatával.
+iron_mine-desc: Vasat termel csákányok használatával.
+lapis_mine-desc: Lazuritot termel vascsákányok használatával.
+marine_mine-desc: Prizmarint termel csákányok használatával.
+obsidian_mine-desc: Obszidiánt termel automatikusan.
+quartz_mine-desc: Kvarcot termel csákányok használatával.
+npc_chalet-desc: Ház egy falusinak. Beleszámít a város lélekszámába.
+npc_dwelling-desc: Ház egy falusinak. Beleszámít a város lélekszámába.
+npc_house-desc: Ház egy falusinak. Beleszámít a város lélekszámába.
+npc_hovel-desc: Ház egy falusinak. Beleszámít a város lélekszámába.
+npc_mansion-desc: Ház egy falusinak. Beleszámít a város lélekszámába.
+npc_shack-desc: Ház egy falusinak. Beleszámít a város lélekszámába.
+raid_porter-desc: Megbízható módja egy ellenséges városba bejutásának. Beüzemelése 4 perc.
+siege_machine-desc: Egy háború alapja. Lassan csökkenti az erőpontjait a közelében lévő városnak.
+  Beüzemelése 4 perc.
+altar-desc: Teljes gyémántszettet, kardot, íjat, és nyilakat készít $300-ért óránként.
+blindness_trap-desc: Vakságot, lassúságot és gyengeséget ad a nem városlakóknak. Megsemmisíti magát
+  30 perc múlva.
+castle-desc: Egy vár közepe. Felépítéséhez szükséges az előörs fejlesztése. 6 erőpontot
+  generál 15 percenként.
+catapult-desc: TNT-t lő nagy távolságokrara nagy pontossággal.
+command_tent-desc: Központja egy előörsnek. Segít megostromolni egy várost. 1 erőpontot generál
+  15 percenként.
+hunting_lodge-desc: Ha egy táblát helyezel egy obszidián felé az áldozatod nevével és jobb
+  egérgombbal kattintsz az obszidiánra, a játékos közelébe teleportál.
+memorial-desc: Egy hely, ahol a város lakosai újraéledhetnek. Megelőzi a sebződést is.
+mobile_hospital-desc: Gyógyítja a játékosokat, ha benne tartózkodnak. Megsemmisíti magát 30 perc
+  után.
+temp_arrow_trap-desc: Nyilakat lő a közelében álló nem városlakókra. Megsemmisíti magát 15 perc után.
+clay_quarry-desc: Agyagot termel automatikusan.
+cobble_quarry-desc: Zúzottkövet termel 30 másodpercenként.
+dirt_quarry-desc: Földet termel 30 másodpercenként.
+red_sand_pit-desc: Vörös homokot termel 30 másodpercenként.
+sand_pit-desc: Homokot termel 30 másodpercenként.
+sifter-desc: Földet szitál, hogy értékes tárgyakat találjon.
+jade_shop-desc: 144 Jade-t ad el a szervernek $1000-ért egy nap. Nem építhető olyan városban,
+  ahol van Jade bánya.
+coal_shop-desc: 144 db szenet ad el a szervernek napi $432-ért.
+diamond_shop-desc: 24 db gyémántot ad el a szervernek napi $1536-ért.
+flower_shop-desc: Virágokat ad el a szervernek napi $288-ért.
+gold_shop-desc: 288 db aranyat ad el a szervernek napi $672-ért.
+iron_shop-desc: 288 db vasat ad el a szervernek napi $576-ért.
+leather_shop-desc: Bőrt ad el a szervernek napi $360-ért.
+keep-desc: A második szintje az előörsnek.
+mining_colony-desc: Letiltja a szörnyek spawnolását és gyorsítja a bányászatot.
+outpost-desc: Az első szintje az előörsnek.
+settlement-desc: Az első szintje a városnak.
+bank-desc: 192 erőpontot generál naponta. 64 db smaragdot ad el $640-ért.
+bath_house-desc: 192 erőpontot generál naponta.
+capitol-desc: A város központja. 768 erőpontot generál naponta. Otthon teleportnak is
+  használható.
+city_hall-desc: A város központja. 576 erőpontot generál naponta. Otthon teleportnak is
+  használható.
+council_room-desc: A város központja. 192 erőpontot generál naponta. Otthon teleportnak is
+  használható.
+embassy-desc: 192 erőpontot generál naponta. Otthoni teleportként is használható.
+library-desc: 192 erőpontot generál naponta. 2 db XP üveget termel 15 percenként.
+purifier-desc: Átalakítja a rohadt húst bőrré és eltávolítja a mérget a krumplikról 15
+  percenként.
+smithy-desc: Eszközöket javít jobb egérgombbal kattintással vasblokkra. 192 erőpontot
+  generál naponta.
+town_hall-desc: A város központja. 348 erőpontot generál naponta. Otthon teleportnak is
+  használható.
