@@ -5,7 +5,7 @@ const FS = require('fs');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  const languages = [ "pt_br", "es", "fr", "de", "da", "zh", "ru", "hu" ];
+  const languages = [ "pt_br", "es", "fr", "de", "da", "zh", "ru", "hu", "ms" ];
   let langData = {};
   langData.en = loadLanguage("en");
   for (let i=0; i<languages.length; i++) {
