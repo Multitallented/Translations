@@ -1,3 +1,123 @@
 name: Français
 icon: BLUE_WOOL
-starter-book: "Menu pour Civs"
+starter-book: Menu pour Civs
+next-button: Suivant
+prev-button: Précédent
+language-menu: Choisir la Langue
+language-set: Votre langue a été mise en $1
+back-button: Retourner
+start-tutorial-desc: Recevez de l'argent et des objets lorsque vous atteignez vos objectifs.
+tutorial-click: S'il vous plaît regarder le Civs guide
+tutorial-wiki: Civs wiki
+click-info: Cliquez pour plus d'infos
+guide: Guide
+guide-desc: Cliquez ici pour voir votre prochain objectif.
+choose-path: Choisissez votre chemin
+new-owner-town: $1 a remplacé $2 comme propriétaire de $3
+town-bank-balance: solde bancaire $1
+town-bank-desc: Retirer avec /cv withdraw $1 montant
+widthdrawn-money: Vous avez retiré $1 de la banque de $2
+town-tax: "Taxes de la ville: $1"
+town-tax-desc: Définir le montant de la taxe en utilisant /cv tax $1 montant
+town-tax-gov-type: $1 ne peut pas fixer les taxes
+town-tax-set: $1 fixe les taxes à $2
+tax-too-high: Vous ne pouvez pas définir des taxes supérieures à $1
+town-assist-price: La banque de la ville a payé $1 pour vous remercier d'avoir construit votre $2
+colony-town-set: Vous avez défini $1 comme une colonie $2
+cant-build-feudal: Vous ne pouvez pas construire une région dans une ville féodale à moins que
+  vous ne possédiez cette ville.
+tribalism-no-invite: Votre ville de tribalisme vous interdit d'inviter $1 de $2, ville non alliée
+vote-member: Votez pour être le prochain propriétaire
+capitalism-voting-cost: Les votes supplémentaires coûtent $1
+voted: Vous avez voté pour $1
+gov-type-change: $1 a changé de $2 en $3
+cant-change-gov-type-daily: Vous n'êtes pas autorisé à changer le type de gouvernement d'une ville plus
+  d'une fois par jour.
+revolt: Révolte
+revolt-desc: Cliquez pour rejoindre la révolte contre $1. Prix $2 $3
+revolt-display: $1 / $2 membres sont révoltants.
+cancel-revolt: Cliquez pour quitter la révolte contre $1
+item-cost: Cette action coûte $1 $2.
+cost-buff: Vous avez été remboursé $1 pour la construction d'une $2 dans une ville $3.
+merit-new-owner: Félicitations! Tu as dépassé $1. Vous êtes le nouveau propriétaire de la ville!
+item-locked: Vous n'avez pas encore déverrouillé cet article.
+ai-invite: Hey, @$1 voudriez-vous rejoindre ma ville?
+ai-help: $1 peut vous faire visiter les lieux.
+shop: Boutique
+buy-item: À Vendre
+price: Prix
+buy: Acheter
+cancel: Annuler
+item-bought: Félicitations! Vous venez d'acheter une $1 pour $2
+max-item: Vous ne pouvez pas acheter plus de $2 $1
+items: Objets
+click-for-item-group: Cliquez pour voir tous les objets de ce groupe
+spells: Hexes
+blueprints: Plans
+regions: Régions
+community: Communauté
+players: Joueurs
+towns: Villes
+your-towns: Vos villes
+wars: Guerres
+alliances: Alliances
+leaderboard: Classement
+ports: Téléports
+money: "Argent: $$1"
+points: "Points: $1"
+kills: "Tue: $1"
+deaths: "Morts: $1"
+friends: Copains
+confirm: Confirmer
+reject: Rejeter
+effects: Effets
+size: étendue
+range: Portée
+build-reqs-title: Exigences de Construction
+population: Population
+biomes: Biomes
+pop-desc: $1 Population / $2 Logement / $3 Villageois
+build-reqs: Tous les blocs que vous devez placer pour construire une $1
+reagents-title: Réactifs
+reagents: Tous les objets dont vous avez besoin dans le coffre de le $1
+upkeep: Tous les articles consommés par le $1
+output: Tous les objets créés par le $1
+payout: Cette région fournit $$1
+too-close-town: Votre $1 serait trop proche d'une autre ville
+town-created: $1 a été créée!
+town-destroyed: $1 a été détruite!
+region-built: Vous avez construit une $1 avec succès
+region-type: Type de Région
+destroy: Détruire
+region-in-town: Votre région est à l'intérieur d'une $1
+town-req-desc: "Votre région doit être à l'intérieur:"
+view-members: Voir les membres
+add-member: Ajouter des membres
+operation: Opération
+region-working: Votre région fonctionne bien
+region-not-working: Votre région manque quelque chose
+owner: Propriétaire
+member: Membre
+guest: Invité
+recruiter: Recruteur
+set-owner: Définir le propriétaire
+set-member: Définir le membre
+set-guest: Définir l'invité
+remove-member: Supprimer un membre
+leave-town: Sortir de la Ville
+you-left-town: Tu es sorti de $1
+invite-sent: Invitation envoyée
+add-member-region: Vous avez été fait membre de $1
+prevent-civs-item-share: Vous n'êtes pas autorisé à partager des objets Civ.
+region-protected: Cette région est protégée
+region-destroyed: $1 de région a été détruite!
+specify-player-town: Veuillez spécifier un joueur et une ville.
+specify-town-name: Veuillez spécifier un nom de ville
+specify-player-region: Veuillez spécifier un joueur et une région.
+town-not-exist: $1 n'est pas une ville
+no-permission-invite: Vous n'avez pas la permission d'inviter des personnes à $1
+player-not-online: $1 n'est pas en ligne
+mill-name: Moulin
+mill-desc: Transforme 2 blés en 1 pain toutes les 30 secondes. Placez un minecart de
+  stockage dans la poitrine. Construisez des rails depuis le moulin vers une
+  région de destination. Placez un rail électrique incliné au début.

@@ -125,8 +125,8 @@ add-owner-region: Tulajdonosa lettél a(z) $1 területnek
 owner-added-region: $1 be lett állítva tulajdonosként a(z) $2 területen
 add-guest-region: Vendég lettél a(z) $1 területnek
 guest-added-region: $1 be lett állítva vendégként a(z) $2 területen
-invite-owner-region: Tagja lettél a(z) $1 területnek
-owner-invited-region: $1 hozzá lett adva a(z) $2 területnek
+invite-member-region: Tagja lettél a(z) $1 területnek
+member-invited-region: $1 hozzá lett adva a(z) $2 területnek
 stand-in-region: $1-nak/nek a területben kell állnia
 create: Létrehoz
 click-for-region-limits: Kattints ide a terület határainak listázásához

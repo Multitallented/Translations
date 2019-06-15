@@ -1,8 +1,8 @@
 name: Bahasa Melayu
-icon: MAGENTA_WOOL
+icon: Bulu Putih
 starter-book: Menu Untuk Civs
-next-button: Seterus
-prev-button: Sebelum
+next-button: Halaman Seterusnya
+prev-button: Halaman Sebelum
 language-menu: Pilih Bahasa
 language-set: Bahasa dipilih adalah $1
 back-button: Ke Belakang
@@ -23,6 +23,17 @@ town-tax: Cukai bandar $1
 town-tax-desc: Tetap cukai dengan /cv tax $1 jumlah
 town-tax-gov-type: $1 tidak dibenarkan tetap cukai
 town-tax-set: Cukai $1 telah ditetap $2
+tax-too-high: Anda tidak boleh tetap cukai lebih daripada $1
+town-assist-price: Bank bandar anda telah membayar anda $1 sebagai penghargaan atas pembinaan $2
+colony-town-set: Anda telah menetapkan $1 sebagai koloni $2
+cant-build-feudal: Anda tidak boleh membina rantau di dalam bandar feudal kecuali jika anda
+  memiliki bandar tersebut
+tribalism-no-invite: Bandar tribalisme anda tidak membenarkan anda menjemput $1 dari bandar $2 yang
+  tidak bersekutu
+vote-member: Undi untuk menjadi pemilik seterusnya
+voted: Anda telah mengundi untuk $1
+gov-type-change: $1 telah tukar dari kerajaan $2 ke kerajaan $3
+cant-change-gov-type-daily: Anda tidak dibenarkan menukar kerajaan lebih daripada sekali sehari
 shop: Kedai
 buy-item: Dijual
 price: Harga
