@@ -6,7 +6,6 @@ $('select.lang-select').change(function(event) {
 
 $('a.toggle-finished').click(function(event) {
   event.preventDefault();
-  console.log('hi');
   if ($('.translation.edit.hide').length < 1) {
     $('.translation.edit').addClass('hide');
     $('a.toggle-finished').text('Show Finished Translations');

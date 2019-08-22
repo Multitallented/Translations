@@ -16,7 +16,7 @@ choose-path: Choisissez votre chemin
 new-owner-town: $1 a remplacé $2 comme propriétaire de $3
 town-bank-balance: solde bancaire $1
 town-bank-desc: Retirer avec /cv withdraw $1 montant
-widthdrawn-money: Vous avez retiré $1 de la banque de $2
+withdrawn-money: Vous avez retiré $1 de la banque de $2
 town-tax: "Taxes de la ville: $1"
 town-tax-desc: Définir le montant de la taxe en utilisant /cv tax $1 montant
 town-tax-gov-type: $1 ne peut pas fixer les taxes

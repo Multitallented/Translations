@@ -1,146 +1,146 @@
-name: English
-icon: WHITE_WOOL
-starter-book: Menu for Civs
-next-button: Next
-prev-button: Previous
-language-menu: Select Language
-language-set: "Your language has been set to $1"
-back-button: Back
-start-tutorial: "Achievements On"
-start-tutorial-desc: "Receive money and items for completing achievements"
-skip: "Achievements Off"
-tutorial-click: "Please watch the Civs guide"
-tutorial-wiki: "Civs wiki"
-click-info: "Click for more info"
-guide: "Guide"
-guide-desc: "Click here to see your next goal."
-choose-path: "Choose your path"
-new-owner-town: "$1 has replaced $2 as an owner of $3"
-town-bank-balance: "Bank balance $1"
-town-bank-desc: "Withdraw using /cv withdraw $1 amount"
-withdrawn-money: "You've withdrawn $1 from $2's bank"
-town-tax: "Town taxes: $1"
-town-tax-desc: "Set tax using /cv tax $1 amount"
-town-tax-gov-type: "$1 can't set taxes"
-town-tax-set: "$1 tax set to $2"
-tax-too-high: "You can't set taxes higher than $1"
-town-assist-price: "Your town bank paid $1 to thank you for the construction of your $2"
-colony-town-set: "You've set $1 as a colony of $2"
-cant-build-feudal: "You can't build a region in a feudal town unless you own that town."
-tribalism-no-invite: "Your tribalism town forbids you to invite $1 of non-allied town $2"
-vote-member: "Vote to be next owner"
-capitalism-voting-cost: "Extra votes cost $1"
-voted: "You have cast your vote for $1"
-gov-type-change: "$1 changed from $2 to $3"
-cant-change-gov-type-daily: "You are not allowed to change a town's government type more than once per day."
-revolt: "Revolt"
-revolt-desc: "Click to join the revolt against $1. Costs $2 $3."
-revolt-display: "$1 / $2 members are revolting."
-cancel-revolt: "Click to leave the revolt against $1."
-item-cost: "This action costs $1 $2."
-cost-buff: "You have been refunded $1 for buildings a $2 in a $3 town."
-merit-new-owner: "Congratulations! You have surpased $1. You are the new town owner!"
-item-locked: "You have not yet unlocked this item."
-ai-invite: "Hey, @$1 would you like to join my town?"
-ai-help: "$1 can give you a tour of the place."
-cooldown-buff-desc: "$1% cooldown reduction for all $2"
-payout-buff-desc: "$1% region payout increase for all $2"
-power-buff-desc: "$1% daily power increase"
-max_power-buff-desc: "$1% max-power increase"
-cost-buff-desc: "$1% cost refund on all $2"
-shop: Shop
-buy-item: For Sale
-price: Price
-buy: "Buy $1"
-cancel: Cancel
-item-bought: "Congrats! You just bought $1 for $2"
-max-item: "You cant buy more than $2 $1"
-max-qty: "$1 has too many $2 and can't own more"
-items: Items
-click-for-item-group: "Click to see all items in this group"
-classes: Classes
-spells: Spells
-blueprints: Blueprints
-regions: Regions
-community: Community
-players: Players
-towns: Towns
-your-towns: Your towns
-wars: Wars
-alliances: Alliances
-leaderboard: Leaderboard
-ports: Ports
-money: "Money: $$1"
-points: "Points: $1"
-killstreak: "Killstreak: $1"
-highest-killstreak: "Highest Killstreak: $1"
-kills: "Kills: $1"
-deaths: "Deaths: $1"
-friends: "Friends"
-confirm: "Confirm"
-reject: "Reject"
-effects: "Effects"
-size: Size
-range: Range
-build-reqs-title: Build Reqs
-population: Population
-population-req: "Requires a $1 with $2 population"
-biomes: Biomes
-devolve-town: "$1 has run out of power and has been downgraded to a $2!"
-pop-desc: "$1 Population / $2 Housing / $3 Villagers"
-build-reqs: "All the blocks you need to place to build a $1"
-reagents-title: Reagents
-reagents: "All the items you need in the $1 chest"
-upkeep: "All the items consumed by the $1"
-output: "All the items created by the $1"
-payout: "This region earns $$1"
-power-input: "This region consumes $1 power"
-power-output: "This region generates $1 power"
-too-close-region: "Your $1 would be too close to a $2"
-too-close-town: "Your $1 would be too close to another town"
-town-created: "$1 has been created!"
-town-destroyed: "$1 has been destroyed!"
-region-built: "You have successfully built a $1"
-region-type: "Region Type"
-destroy: "Destroy"
-region-in-town: "Your region is in $1"
-town-req-desc: "Your region must be built in:"
-view-members: "View members"
-add-member: "Add member"
-operation: "Operation"
-region-working: "Your region is running smoothly"
-region-not-working: "Your region is missing something"
-owner: Owner
-member: Member
-guest: Guest
-recruiter: Recruiter
-set-owner: Set Owner
-set-member: Set Member
-set-guest: Set Guest
-set-recruiter: Set Recruiter
-remove-member: Remove Member
-leave-town: Leave Town
-you-left-town: "You have left $1"
-invite-sent: "Invite sent"
-add-member-region: "You have been made a member of $1"
-member-added-region: "$1 is now a member of your $2"
-owner-description: "Owners can do anything in the region"
-guest-description: "Guests can use doors and buttons in the region"
-member-description: "Members can build and use the region"
-recruiter-description: "Recruiters can invite players to the town"
-remove-member-region: "You are no longer a member of $1"
-member-removed-region: "$1 is no longer a member of $2"
-add-owner-region: "You have been made an owner of $1"
-owner-added-region: "$1 is now an owner of your $2"
-add-recruiter-region: "You have ben made a recruiter for $1"
-recruiter-added-region: "$1 is now a recruiter for $2"
-add-guest-region: "You have been made a guest of $1"
-guest-added-region: "$1 is now a guest of your $2"
-invite-member-region: "You have been become a member of $1"
-member-invited-region: "$1 has been added to your $2"
-no-invite: "You have no invites"
-stand-in-region: "Please have $1 stand in the region"
-create: Create
+name: Việt nam
+icon: LIME_WOOL
+starter-book: Giao diện của Civs
+next-button: Trang trước
+prev-button: Trang sau
+language-menu: Chọn ngôn ngữ
+language-set: "Ngôn ngữ của bạn đã được đặt thành $1"
+back-button: Quay lại
+start-tutorial: "Bắt đầu tiến trình"
+start-tutorial-desc: "Thu thập vật phẩm và kiếm tiền để hoàn thành tiến trình"
+skip: "Bỏ qua tiến trình"
+tutorial-click: "Xin hãy xem hướng dẫn"
+tutorial-wiki: "Wiki của Civs"
+click-info: "Nhấn để xem thêm"
+guide: "Hướng dẫn"
+guide-desc: "Nhấn vào đây để xem mục tiêu tiếp theo của bạn"
+choose-path: "Chọn lối chơi của bạn"
+new-owner-town: "$1 đã thay thế $2 với tư cách là chủ sở hữu của $3"
+town-bank-balance: "Ngân khố $1"
+town-bank-desc: "Để rút tiền dùng /cv withdraw $1 số_lượng"
+withdrawn-money: "Bạn đã rút $1 từ ngân khố của $2"
+town-tax: "Thuế: $1"
+town-tax-desc: "Đặt thuế dùng /cv tax $1 số_lượng"
+town-tax-gov-type: "Không thể đặt thuế thành $1"
+town-tax-set: "Thuế của $1 được đặt thành $2"
+tax-too-high: "Bạn không thể đặt thuế cao hơn $1"
+town-assist-price: "Ngân khố của thị trấn đã trả cho bạn $1 nhằm cảm ơn công xây $2 của bạn"
+colony-town-set: "Bạn đã biến $1 thành thuộc địa của $2"
+cant-build-feudal: "Bạn không thể xây một khu vực riêng khi ở trong thị trấn phong kiến, trừ khi bạn là chủ thị trấn"
+tribalism-no-invite: "Thị trấn bộ lạc của bạn cấm bạn mời $1 của thị trấn không liên minh $2"
+vote-member: "Bỏ phiếu bầu chủ thị trấn mới"
+capitalism-voting-cost: "Chi phí bỏ phiếu thêm $1"
+voted: "Bạn đã bầu cho $1"
+gov-type-change: "$1 chuyển đổi từ $2 sang $3"
+cant-change-gov-type-daily: "Bạn không thể đổi chế độ của thị trấn quá 1 lần một ngày"
+revolt: "Nổi dậy"
+revolt-desc: "Nhấn vào để nổi dậy chống lại $1. Giá tham gia $2 $3"
+revolt-display: "$1 / $2 thành viên sẽ nổi dậy"
+cancel-revolt: "Nhấn để từ bỏ cuộc nổi dậy chống $1"
+item-cost: "Chi phí cho hành động này là $1 $2"
+cost-buff: "Bạn được hoàn trả $1 khi xây $2 trong thị trấn $3"
+merit-new-owner: "Chúc mừng, bạn đã vượt qua $1. Bạn sẽ là chủ thị trấn mới"
+item-locked: "Bạn chưa mở khoá thứ này"
+ai-invite: "Chào @$1 ,bạn có muốn tham gia thị trấn của tôi?"
+ai-help: "$1 có thể đưa bạn tham quan chỗ này"
+cooldown-buff-desc: "Giảm $1% thời gian hồi cho tất cả $2"
+payout-buff-desc: "Tăng $1% thu nhập cho tất cả khu vực $2"
+power-buff-desc: "Tăng $1% năng lượng sản xuất hàng ngày"
+max_power-buff-desc: "Tăng $1% năng lượng tối đa"
+cost-buff-desc: "Hoàn trả $1% chi phí cho tất cả  $2"
+shop: Cửa hàng
+buy-item: Mua
+price: Giá
+buy: "Mua $1"
+cancel: Huỷ bỏ
+item-bought: "Bạn mua thành công $1 với gia $2"
+max-item: "Bạn không thể mua nhiều hơn $2 $1"
+max-qty: "$1 đã có quá nhiều $2 và không thể sở hữu thêm"
+items: Vật phẩm
+click-for-item-group: "Nhấn để xem các vật phẩm tương đồng"
+classes: Lớp nhân vật
+spells: Các phép thuật
+blueprints: Các bản thiết kế
+regions: Các khu vực
+community: Các cộng đồng
+players: Các người chơi
+towns: Các thị trấn
+your-towns: Thị trấn của bạn
+wars: Các cuộc chiến
+alliances: Các liên minh
+leaderboard: Bảng danh vọng
+ports: Các cổng
+money: "Tiền: $$1"
+points: "Điểm: $1"
+killstreak: "Hạ gục liên tiếp: $1"
+highest-killstreak: "Hạ gục liên tiếp cao nhất: $1"
+kills: "Đã giết: $1"
+deaths: "Đã chết: $1"
+friends: "Bạn bè"
+confirm: "Xác nhận"
+reject: "Từ chối"
+effects: "Hiệu ứng"
+size: Kích thước
+range: Tầm hoạt động
+build-reqs-title: Khối yêu cầu
+population: Dân số
+population-req: "Yêu cầu $1 cần $2 điểm dân số"
+biomes: Quần xã
+devolve-town: "$1 đã hết năng lượng duy trì và bị giảm cấp xuống $2!"
+pop-desc: "Dân số $1 / Nhà cửa $2  / Dân làng $3"
+build-reqs: "Tất cả các khối mà bạn cần để xây dựng $1"
+reagents-title: Thử nghiệm
+reagents: "Tất cả đồ bạn cần ở trong rương $1"
+upkeep: "Tất cả vật phẩm được dùng bởi $1"
+output: "Tất cả vật phẩm được chế tạo ra bởi $1"
+payout: "Khu vực này nhận được $$1"
+power-input: "Khu vực này sẽ tiêu tốn $1 năng lượng"
+power-output: "Khu vực này sản xuất $1 năng lượng"
+too-close-region: "$1 sẽ quá gần khu vực $2"
+too-close-town: "$1 sẽ quá gần với thị trấn khác"
+town-created: "$1 được khởi tạo"
+town-destroyed: "$1 đã bị giải tán"
+region-built: "Bạn đã xây dựng thành công $1"
+region-type: "Loại khu vực"
+destroy: "Phá huỷ"
+region-in-town: "Khu vực của bạn ở trong $1"
+town-req-desc: "Khu vực của bạn sẽ phải được xây trong:"
+view-members: "Xem danh sách thành viên"
+add-member: "Thêm thành viên"
+operation: "Hoạt động"
+region-working: "Khu vực này của bạn đang vận hành rất mượt"
+region-not-working: "Khu vực của bạn thiếu thứ gì đó"
+owner: Chủ thị trấn
+member: Thành viên
+guest: Khách
+recruiter: Người tuyển dụng
+set-owner: Đặt làm chủ thị trấn
+set-member: Đặt làm thành viên
+set-guest: Đặt làm khách
+set-recruiter: Đặt làm người tuyển dụng
+remove-member: Loại bỏ thành viên
+leave-town: Rời thị trấn
+you-left-town: "Bạn đã thoát $1"
+invite-sent: "Đã gửi lời mời"
+add-member-region: "Bạn đã trở thành một thành viên của $1"
+member-added-region: "$1 bây giờ là thành viên của $2"
+owner-description: "Chủ thị trấn có thể làm mọi thứ với các khu vực khác"
+guest-description: "Khách chỉ có thể dùng cửa hoặc nút bấm"
+member-description: "Thành viên có thể dùng khu vực và xây dựng"
+recruiter-description: "Người tuyển dụng có thể mời người khác"
+remove-member-region: "Bạn không còn là thành viên của $1"
+member-removed-region: "$1 không còn là thành viên của $2"
+add-owner-region: "Bạn trở thành chủ của $1"
+owner-added-region: "$1 bây giờ là chủ của $2"
+add-recruiter-region: "Bạn đã được chỉ định thành người tuyển dụng cho $1"
+recruiter-added-region: "$1 bây giờ là người tuyển dụng cho $2"
+add-guest-region: "Bạn sẽ là khách của $1"
+guest-added-region: "$1 bây giờ là khách của $2"
+invite-member-region: "Bạn đã được làm thành viên chính thức của $1"
+member-invited-region: "$1 đã được thêm vào $2 của bạn"
+no-invite: "Bạn không có lời mời nào"
+stand-in-region: "Xin vui lòng có $1 trong khu vực"
+create: Tạo
 click-for-region-limits: "Click here for a list of region limits"
 click-for-req-regions: "Click here for a list of required regions"
 town-instructions: "Create a $1, by using /cv town MyTownName"
@@ -589,7 +589,7 @@ sand_pit-desc: "Creates sand every 30 seconds."
 sifter-name: "Sifter"
 sifter-desc: "Sifts through dirt to find valuable items."
 jade_shop-name: "Jade Shop"
-jade_shop-desc: "Sells 16 Jade to the server for $1000 per day. Can't be built in a town with a Jade Mine."
+jade_shop-desc: "Sells 144 Jade to the server for $1000 per day. Can't be built in a town with a Jade Mine."
 coal_shop-name: "Coal Shop"
 coal_shop-desc: "Sells 144 coal to the server for $432 per day"
 diamond_shop-name: "Diamond Shop"
@@ -680,5 +680,5 @@ house-evolve-name: "House Evolve"
 house-evolve-desc: "Hidden evolved forms of housing buildings"
 trade-mines-name: "Trade Mines"
 trade-mines-desc: "Mines that produce items to be sold in other towns."
-evolve-name: "Evolve"
-evolve-desc: "Hidden evolved forms of various buildings"
+evolve-name: "Tiến hoá"
+evolve-desc: "Ẩn hình dạng tiến hoá của các toà nhà khác nhau"

@@ -18,7 +18,7 @@ choose-path: Pilih jalan anda
 new-owner-town: $1 telah menggantikan $2 sebagai pemilik $3
 town-bank-balance: Baki bank $1
 town-bank-desc: Mengeluar tunai dengan /cv withdraw $1 amount
-widthdrawn-money: Anda telah mengeluarkan $$1 dari bank $2
+withdrawn-money: Anda telah mengeluarkan $$1 dari bank $2
 town-tax: Cukai bandar $1
 town-tax-desc: Tetap cukai dengan /cv tax $1 jumlah
 town-tax-gov-type: $1 tidak dibenarkan tetap cukai
