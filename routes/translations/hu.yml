@@ -51,7 +51,7 @@ cost-buff-desc: $1% pénzvisszatérítés minden $2-ra/re
 shop: Bolt
 buy-item: Eladó
 price: Ár
-buy: Vásárlás $$1-ért
+buy: $1 megvásárlása
 cancel: Mégsem
 item-bought: Gratulálok! Megvásároltad $1-t $2-ért
 max-item: Nem vásárolhatsz többet, mint $2 $1
