@@ -1,0 +1,24 @@
+name: Polski
+icon: OBSIDIAN
+starter-book: Menu Civs
+next-button: Następne
+prev-button: Poprzednie
+language-menu: Wybierz język
+language-set: Twój ustawiony język to $1
+back-button: Wróć
+start-tutorial: Osiągnięcia włączone
+start-tutorial-desc: Otrzymuj pieniądze i przedmioty, za ukończenie osiągnięć
+skip: Osiągnięcia wyłączone
+tutorial-click: Obejrzyj przewodnik po Civs
+tutorial-wiki: Civs wiki
+click-info: Kliknij, aby uzyskać więcej informacji
+guide: Przewodnik
+income: Dochód
+income-desc: Twój $1 zarobił $2 w dniu wczorajszym i $3 w poprzednim tygodniu
+rebuild: Odbuduj
+rebuild-req-desc: Ten obiekt musi być zbudowany na szczycie następującego obiektu(ów)
+rebuild-opt-desc: Ten obiekt może być zbudowany na szczycie następującego obiektu(ów)
+guide-desc: Kliknij tutaj, aby zobaczyć następny cel
+choose-path: Wybierz swoją ścieżkę
+new-owner-town: $1 wybrał $2 jako właściciela $3
+town-bank-balance: Saldo banku $1

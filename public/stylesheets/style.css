@@ -36,4 +36,12 @@ a {
     background-color: #00B7FF;
     height: 10px; }
 
+.bttn {
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #171717;
+  color: #00B7FF;
+  border: 1px #000000;
+  margin: 5px; }
+
 /*# sourceMappingURL=style.css.map */

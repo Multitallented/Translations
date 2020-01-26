@@ -6,7 +6,9 @@ prev-button: Précédent
 language-menu: Choisir la Langue
 language-set: Votre langue a été mise en $1
 back-button: Retourner
+start-tutorial: Succès Activés
 start-tutorial-desc: Recevez de l'argent et des objets lorsque vous atteignez vos objectifs.
+skip: Succès Désactivés
 tutorial-click: S'il vous plaît regarder le Civs guide
 tutorial-wiki: Civs wiki
 click-info: Cliquez pour plus d'infos
@@ -17,6 +19,8 @@ new-owner-town: $1 a remplacé $2 comme propriétaire de $3
 town-bank-balance: solde bancaire $1
 town-bank-desc: Retirer avec /cv withdraw $1 montant
 withdrawn-money: Vous avez retiré $1 de la banque de $2
+deposit-money: Vous avez déposé plus de $1 dans une banque.
+too-much-money: Vous ne pouvez pas déposer plus de $1 dans une banque.
 town-tax: "Taxes de la ville: $1"
 town-tax-desc: Définir le montant de la taxe en utilisant /cv tax $1 montant
 town-tax-gov-type: $1 ne peut pas fixer les taxes
@@ -50,8 +54,10 @@ buy: Acheter
 cancel: Annuler
 item-bought: Félicitations! Vous venez d'acheter une $1 pour $2
 max-item: Vous ne pouvez pas acheter plus de $2 $1
+max-qty: $1 a trop $2 et ne peut pas posséder plus
 items: Objets
 click-for-item-group: Cliquez pour voir tous les objets de ce groupe
+classes: Classes
 spells: Hexes
 blueprints: Plans
 regions: Régions
@@ -63,8 +69,10 @@ wars: Guerres
 alliances: Alliances
 leaderboard: Classement
 ports: Téléports
-money: "Argent: $$1"
+money: "Argent: $1 $"
 points: "Points: $1"
+killstreak: "Killstreak: $1"
+highest-killstreak: "Plus Haut Killstreak: $1"
 kills: "Tue: $1"
 deaths: "Morts: $1"
 friends: Copains
@@ -75,6 +83,7 @@ size: étendue
 range: Portée
 build-reqs-title: Exigences de Construction
 population: Population
+population-req: Nécessite un $1 avec $2 habitants
 biomes: Biomes
 pop-desc: $1 Population / $2 Logement / $3 Villageois
 build-reqs: Tous les blocs que vous devez placer pour construire une $1
@@ -82,7 +91,10 @@ reagents-title: Réactifs
 reagents: Tous les objets dont vous avez besoin dans le coffre de le $1
 upkeep: Tous les articles consommés par le $1
 output: Tous les objets créés par le $1
-payout: Cette région fournit $$1
+payout: Cette région fournit $1 $
+power-input: Cette région consomme $1 puisssance
+power-output: Cette région génère $1 puisssance
+too-close-region: Votre $1 serait trop proche d'un $1
 too-close-town: Votre $1 serait trop proche d'une autre ville
 town-created: $1 a été créée!
 town-destroyed: $1 a été détruite!
@@ -108,6 +120,39 @@ leave-town: Sortir de la Ville
 you-left-town: Tu es sorti de $1
 invite-sent: Invitation envoyée
 add-member-region: Vous avez été fait membre de $1
+owner-description: Les propriétaires peuvent faire n'importe quoi dans la région
+guest-description: Les invités peuvent utiliser les portes et les boutons dans la région
+member-description: Les membres peuvent construire et utiliser la région
+recruiter-description: Les recruteurs peuvent inviter des joueurs en ville
+remove-member-region: Vous n'êtes plus membre de $1
+member-removed-region: $1 n'est plus membre de $2
+add-owner-region: Vous avez été nommé propriétaire de $1
+add-recruiter-region: Vous avez été fait recruteur pour $1
+add-guest-region: Vous avez été invité par $1
+invite-member-region: Vous êtes devenu membre de $1
+create: Créer
+click-for-region-limits: Cliquez ici pour une liste des limiations de région
+click-for-req-regions: Cliquez ici pour une liste des régions requises
+town-enter: Vous avez entré $1 ($2)
+town-exit: Vous avez quitté $1 ($2)
+town-power: "Puissance: $1/$2"
+port-warmup: Vous serez téléporté en $1s
+teleported: Vous avez été téléporté!
+rename-town: Renommez votre ville
+bounty-bonus: Vous avez collecté une prime de $1
+add-friend: Ajouter à la Liste d'Amis
+remove-friend: Retirer de la Liste d"Amis
+friend-added: $1 a été ajouté à votre liste d'amis
+friend-removed: $1 a été retiré de votre liste d'amis
+region-sale-set: $1 est à vendre pour $2
+sell-region: Vendre Cette Région
+cancel-sale: Annuler La Vente
+buy-region: Achetez ce $1 pour $2
+regions-for-sale: Régions à Vendre
+invalid-name: Nom incorrect
+region-not-allowed-in-world: Vous ne pouvez pas construire un $1 dans ce monde
+last-renamed-by: "Dernière renommé par: $1"
+building-too-big: Votre bâtiment est trop grand pour être un $1
 prevent-civs-item-share: Vous n'êtes pas autorisé à partager des objets Civ.
 region-protected: Cette région est protégée
 region-destroyed: $1 de région a été détruite!
@@ -117,7 +162,330 @@ specify-player-region: Veuillez spécifier un joueur et une région.
 town-not-exist: $1 n'est pas une ville
 no-permission-invite: Vous n'avez pas la permission d'inviter des personnes à $1
 player-not-online: $1 n'est pas en ligne
+no-permission: Permission refusée
+not-enough-money: Vous n'avez pas $1 $
+not-allowed-place: $1 ne peut pas être placé
+hold-town: S'il vous plaît tenir un élément de ville
+intruder-exit: $1 est sorti $2
+in-combat: Vous ne pouvez pas faire ça en combat
+port-not-found: Aucun port trouvé
+raid-porter-warning: ATTENTION! $1 a créé un $2 qui vous cible
+siege-built: ATTENTION! $1 a créé une $2 qui vous cible
+limits: Limites
+not-enough-housing: Vous devez construire plus de logements avant d'inviter des gens
+not-member-port: Vous n'êtes pas membre de ce port
+cant-repair-item: Cet article n'est pas quelque chose que vous pouvez réparer ici
+hold-repair-item: Vous devez tenir l'article que vous souhaitez réparer
+kill: "Tuer: $1"
+killstreak-points: "Bonus de Killstreak: $1"
+total-points: "Points Totaux: $1"
+karma: "Karma: $1"
+karma-gained: "Karma: +$1, $2 argent gagné"
+karma-lost: "Karma: -$1, $2 argent perdu"
+tut-default-0: D'abord, ouvrez votre livre, allez dans les plans, prenez votre refuge et
+  placez-le.
+tut-default-1: Ensuite, ramassez 4 pains, 32 carottes, 32 steaks ou 32 pommes de terre.
+  Mettez-les dans le coffre du refuge.
+tut-default-2: Le refuge vous paye pour la nourriture, mais le magasin de charbon paie plus.
+  Ouvrez votre livre, allez au magasin et achetez le magasin de charbon.
+tut-default-3: Placez 25 laines, 14 barrières et 2 coffres. Ensuite, placez le magasin de
+  charbon.
+tut-default-4: Félicitations! Vous avez terminé le tutoriel par défaut. Maintenant,
+  choisissez votre classe.
+tut-warrior-name: Guerrier
+tut-builder-name: Constructeur
+tut-merchant-name: Marchand
+anarchy-name: Anarchie
+capitalism-name: Capitalisme
+colonialism-name: Colonialisme
+communism-name: Communisme
+cooperative-name: Coopérative
+cybersynacy-name: Technocratie
+democracy-name: Démocratie
+democratic_socialism-name: Socialisme Démocratique
+dictatorship-name: Dictature
+feudalism-name: Féodalisme
+idiocracy-name: Idiocratie
+kraterocracy-name: Cratérocratie
+libertarian-name: Libertarisme
+libertarian-desc: Aucune propriété de la ville.
+libertarian_socialism-name: Socialisme Libertaire
+libertarian_socialism-desc: Libertarisme + Socialisme
+meritocracy-name: Méritocratie
+oligarchy-name: Oligarchie
+socialism-name: Socialisme
+tribalism-name: Tribalisme
+admin_graveyard-name: Cimetière Admin
+shelter-name: Refuge
+barracks-name: Caserne
+barracks-desc: Ajoute 6 logements à la ville. Crée 288 puissances par jour. Ne peut pas être
+  construit dans une ville avec une auberge.
+bell_tower-name: Clocher
+bell_tower-desc: Alertes membres de la ville quand un intrus est entré dans la ville.
+church-name: Église
+graveyard-name: Cimetière
+hospital-name: Hôpital
+idol-name: Idole
+jail-name: Prison
+monument-name: Monument
+statue-name: Statue
+arrow_factory-name: Usine de Flèche
+arrow_factory-desc: Usine de flèche automatique
+bakery-name: Boulangerie
+bakery-desc: Crée des cookie et des tarte à la citrouille les 10 minutes. Placez un
+  wagonnet de stockage dans le coffre. Construire des rails de la boulangerie à
+  une région de destination. Placez un rail de propulsion incliné au début.
+gold_infuser-name: Infuseur D'or
+ice_maker-name: Machine à Glaçons
+iron_works-name: Ferronnerie
 mill-name: Moulin
-mill-desc: Transforme 2 blés en 1 pain toutes les 30 secondes. Placez un minecart de
-  stockage dans la poitrine. Construisez des rails depuis le moulin vers une
-  région de destination. Placez un rail électrique incliné au début.
+mill-desc: Transforme 2 blés en 1 pain toutes les 30 secondes. Placez un wagonnet de
+  stockage dans le coffre. Construisez des rails depuis le moulin vers une
+  région de destination. Placez un rail  de propulsion incliné au début.
+stone_works-name: Maçonnerie
+weapons_factory-name: Usine d'Armes
+chicken_coop-name: Poulailler
+donkey_farm-name: Asinerie
+mule_farm-name: Ferme Muletière
+pig_pen-name: Porcherie
+pig_pen-desc: Ferme automatique de porc
+rabbit_hutch-name: Clapier
+rabbit_hutch-desc: Ferme de lapin automatique
+ranch-name: Ranch
+ranch-desc: Ferme à vache automatique. Placez un wagonnet de stockage dans le coffre.
+  Construire des rails de la ranch à une région de destination. Placez un rail
+  de propulsion incliné au début.
+sheep_farm-name: Ferme de Moutons
+sheep_farm-desc: Ferme automatique à moutons
+stables-name: Écuries
+stables-desc: Crée des chevaux et des selles toutes les heures
+acacia_lumberyard-name: Cour à Bois de Acacia
+acacia_lumberyard-desc: Production automatisée de bois de acacia. Placez un wagonnet de stockage dans
+  le coffre. Construire des rails de la cour à bois à une région de destination.
+  Placez un rail de propulsion incliné au début.
+birch_lumberyard-name: Cour à Bois de Bouleau
+birch_lumberyard-desc: Production automatisée de bois de bouleau. Placez un wagonnet de stockage dans
+  le coffre. Construire des rails de la cour à bois à une région de destination.
+  Placez un rail de propulsion incliné au début.
+dark_oak_lumberyard-name: Cour à Bois de Chêne Noir
+dark_oak_lumberyard-desc: Production automatisée de bois de chêne noir. Placez un wagonnet de stockage
+  dans le coffre. Construire des rails de la cour à bois à une région de
+  destination. Placez un rail de propulsion incliné au début.
+jungle_lumberyard-name: Cour à Bois de Acajou
+jungle_lumberyard-desc: Production automatisée de bois de acajou. Placez un wagonnet de stockage dans
+  le coffre. Construire des rails de la cour à bois à une région de destination.
+  Placez un rail de propulsion incliné au début.
+oak_lumberyard-name: Cour à Bois de Chêne
+oak_lumberyard-desc: Production automatisée de bois de chêne. Placez un wagonnet de stockage dans
+  le coffre. Construire des rails de la cour à bois à une région de destination.
+  Placez un rail de propulsion incliné au début.
+spruce_lumberyard-name: Cour à Bois de Sapin
+spruce_lumberyard-desc: Production automatisée de bois de sapin. Placez un wagonnet de stockage dans
+  le coffre. Construire des rails de la cour à bois à une région de destination.
+  Placez un rail de propulsion incliné au début.
+apple_orchard-name: Verger de Pommiers
+carrot_farm-name: Ferme de Carottes
+cocoa_farm-name: Ferme de Cacao
+cocoa_farm-desc: Crée 16 cacao toutes les 5 minutes. Placez un wagonnet de stockage dans le
+  coffre. Construire des rails de la ferme de cacao à une région de destination.
+  Placez un rail de propulsion incliné au début.
+ender_pearl_farm-name: Ferme de Perle de l'Ender
+fishing_hut-name: Cabane de Pêche
+greenhouse-name: Serre
+greenhouse-desc: Pépinière automatique de fleurs.
+melon_farm-name: Ferme de Pastèque
+melon_farm-desc: Crée des pastèques toutes les 10 minutes. Placez un wagonnet de stockage dans
+  le coffre. Construire des rails de la ferme de pastèque à une région de
+  destination. Placez un rail de propulsion incliné au début.
+potato_farm-name: Ferme de Pomme de Terre
+pumpkin_farm-name: Ferme de Citrouille
+pumpkin_farm-desc: Crée des citrouilles toutes les 10 minutes. Placez un wagonnet de stockage
+  dans le coffre. Construire des rails de la ferme de citrouille à une région de
+  destination. Placez un rail de propulsion incliné au début.
+sugar_cane_farm-name: Ferme de Canne à Sucre
+sugar_cane_farm-desc: Crée 16 canne à sucre toutes les 10 minutes. Placez un wagonnet de stockage
+  dans le coffre. Construire des rails de la ferme de canne à sucre à une région
+  de destination. Placez un rail de propulsion incliné au début.
+shack-name: Cabane
+shack-desc: La maison la plus basique. Gagne 122 $ par jour en vendant des pommes de terre.
+hovel-name: Taudis
+hovel-desc: 2ème niveau de la maison. Gagne 144 $ par jour en vendant des pommes de terre
+  et des pommes. Uniquement disponible en tant que mise à niveau de la cabane.
+hovel1-name: Taudis1
+hovel1-desc: 2ème niveau de la maison. Gagne 310 $ par jour en vendant des pommes de terre
+  et des pommes.
+dwelling-name: Habitation
+dwelling-desc: 3ème niveau de la maison. Gagne 309 $ par jour en vendant des pommes de terre
+  et des pommes.
+dwelling1-name: Habitation1
+dwelling1-desc: 3ème niveau de la maison. Gagne 326 $ par jour en vendant des pommes de terre
+  et des pommes.
+dwelling2-name: Habitation2
+dwelling2-desc: 3ème niveau de la maison. Gagne 598 $ par jour en vendant des pommes de terre,
+  des pommes, et des poissons.
+house-name: Maison
+house-desc: 4ème niveau de la maison. Gagne 491 $ par jour en vendant des pains et des
+  pommes. Uniquement disponible en tant que mise à niveau de l'habitation.
+house1-name: Maison1
+house1-desc: 4ème niveau de la maison. Gagne 635 $ par jour en vendant des pains, des
+  pommes, et des poissons.
+house2-name: Maison2
+house2-desc: 4ème niveau de la maison. Gagne 832 $ par jour en vendant des pains, des
+  pommes, des poissons, et des tranches de pastèque.
+chalet-name: Chalet
+chalet-desc: 5ème niveau de la maison. Gagne 548 $ par jour en vendant des pains et des
+  carottes.
+chalet1-name: Chalet1
+chalet1-desc: 5ème niveau de la maison. Gagne 692 $ par jour en vendant des pains, des
+  carottes, et des poissons.
+chalet2-name: Chalet2
+chalet2-desc: 5ème niveau de la maison. Gagne 890 $ par jour en vendant des pains, des
+  carottes, des poissons, et des tranches de pastèque.
+chalet3-name: Chalet3
+chalet3-desc: 5ème niveau de la maison. Gagne 1022 $ par jour en vendant des pains, des
+  carottes, des poissons, des cookies, et des tranches de pastèque.
+mansion-name: Manoir
+mansion1-name: Manoir1
+mansion2-name: Manoir2
+mansion3-name: Manoir3
+inn-name: Auberge
+inn-desc: Fournit 12 logements et un port. Utile pour ajouter des personnes à la ville
+  sans avoir à construire d'abord des logements.
+jade_mine-name: Mine de Jade
+coal_mine-name: Mine de Charbon
+coal_mine-desc: Crée des charbon en utilisant des pioches. Placez un wagonnet de stockage dans
+  le coffre. Construire des rails de la mine de charbon à une région de
+  destination. Placez un rail de propulsion incliné au début.
+diamond_mine-name: Mine de Diamant
+diamond_mine-desc: Crée des diamants en utilisant des pioches en fer
+gold_mine-name: Mine d'Or
+gold_mine-desc: Crée des lingots d'or en utilisant des pioches en fer. Placez un wagonnet de
+  stockage dans le coffre. Construire des rails de la mine d'or à une région de
+  destination. Placez un rail de propulsion incliné au début.
+gunpowder_mine-name: Mine de Poudre à Canon
+gunpowder_mine-desc: Crée des poudres à canon en utilisant des pioches en fer
+iron_mine-name: Mine de Fer
+iron_mine-desc: Crée des fers en utilisant des pioches en fer toutes les heures
+lapis_mine-name: Mine de Lapis
+lapis_mine-desc: Crée des lapis en utilisant des pioches en fer toutes les heures
+marine_mine-name: Mine de Prismarine
+marine_mine-desc: Crée des prismarine en utilisant des pioches
+obsidian_mine-name: Mine d'Obsidienne
+obsidian_mine-desc: Crée d'obsidienne lentement
+quartz_mine-name: Mine de Quartz
+quartz_mine-desc: Crée des quartz en utilisant des pioches
+redstone_mine-name: Mine de Redstone
+redstone_mine-desc: Crée des poudre de redstone en utilisant des pioches. Placez un wagonnet de
+  stockage dans le coffre. Construire des rails de la mine de redstone à une
+  région de destination. Placez un rail de propulsion incliné au début.
+npc_chalet-name: Chalet de PNJ
+npc_chalet-desc: Une maison pour un villageois. Compte vers la population de la ville.
+npc_dwelling-desc: Une maison pour un villageois. Compte vers la population de la ville.
+npc_house-desc: Une maison pour un villageois. Compte vers la population de la ville.
+npc_hovel-desc: Une maison pour un villageois. Compte vers la population de la ville.
+npc_mansion-name: Manoir de PNJ
+npc_mansion-desc: Une maison pour un villageois. Compte vers la population de la ville.
+npc_shack-name: Cabane de PNJ
+npc_shack-desc: Une maison pour un villageois. Compte vers la population de la ville.
+raid_porter-name: Porteur de Raid
+siege_machine-name: Machine de Siège
+siege_machine_active-desc: Supprime 1 puissance toutes les 3 minutes. Mises à niveau après 3 coups.
+siege_machine1-name: Machine de Siège1
+siege_machine1-desc: Supprime 1 puissance toutes les 2.5 minutes. Mises à niveau après 3 coups.
+siege_machine2-name: Machine de Siège2
+siege_machine2-desc: Supprime 1 puissance toutes les 2 minutes. Mises à niveau après 4 coups.
+siege_machine3-name: Machine de Siège3
+siege_machine3-desc: Supprime 1 puissance toutes les 1.5 minutes.
+altar-name: Autel
+castle-name: Château
+catapult-name: Catapulte
+catapult-desc: Tire TNT avec précision à longue portée.
+hunting_lodge-name: Pavillon de Chasse
+memorial-name: Mémorial
+memorial-desc: Une place pour les membres de la ville à réapparaître. Empêche également les
+  dommages.
+mobile_hospital-name: Hôpital Mobile
+mobile_hospital-desc: Soigne tous les joueurs à l'intérieur de l'hôpital mobile. Se détruit en 30
+  minutes.
+clay_quarry-name: Carrière d'Argile
+clay_quarry-desc: Création automatisée d'argile.
+cobble_quarry-name: Carrière de Pierres
+cobble_quarry-desc: Crée des pierres toutes les 30 secondes.
+cobble_grinder-name: Moulin à Pierres
+cobble_grinder-desc: Crée des pierres toutes les 30 secondes. Placez un wagonnet de stockage dans
+  le coffre. Construire des rails de la moulin à pierres à une région de
+  destination. Placez un rail de propulsion incliné au début.
+dirt_quarry-name: Carrière de Terre
+dirt_quarry-desc: Création automatisée de terre.
+red_sand_pit-name: Fosse à Sable Rouge
+red_sand_pit-desc: Crée du sable rouge toutes les 30 secondes
+sand_pit-name: Fosse à Sable
+sand_pit-desc: Crée du sable toutes les 30 secondes
+sifter-name: Tamis
+sifter-desc: Soulever la saleté pour trouver des objets de valeur.
+jade_shop-name: Magasin de Jade
+coal_shop-name: Magasin de Charbon
+coal_shop-desc: Vend 144 charbon au serveur pour 432 $ par jour
+diamond_shop-name: Magasin de Diamant
+diamond_shop-desc: Vend 24 diamants au serveur pour 1536 $ par jour.
+flower_shop-name: Fleuriste
+flower_shop-desc: Vend des fleurs au serveur pour 288 $ par jour.
+gold_shop-name: Magasin d'Or
+gold_shop-desc: Vend 288 lingots d'or au serveur pour 672 $ par jour.
+iron_shop-name: Magasin de Fer
+iron_shop-desc: Vend 288 lingots de fer au serveur pour 576 $ par jour.
+leather_shop-name: Maroquinerie
+leather_shop-desc: Vend des cuirs au serveur pour 360 $ par jour.
+city-name: Cité
+city-desc: Le cinquième niveau d'une ville. Nécessite 30 habitants.
+hamlet-name: Hamlet
+hamlet-desc: Le deuxième niveau d'une ville. Nécessite 5 habitants.
+keep-name: Donjon
+metropolis-name: Métropole
+metropolis-desc: Le sixième niveau d'une ville. Nécessite 50 habitants.
+mining_colony-name: Colonie Minière
+outpost-name: Avant-Poste
+settlement-name: Colonie
+settlement-desc: Le premier niveau d'une ville.
+town-name: Ville
+town-desc: Le quatrième niveau d'une ville. Nécessite 20 habitants.
+village-name: Village
+village-desc: Le troisième niveau d'une ville. Nécessite 10 habitants.
+bank-name: Banque
+bank-desc: Produit 192 puissance par jour. Convertit 64 émeraudes à 640 $ ou vice versa.
+bath_house-name: Bains Publics
+bath_house-desc: Fournit 192 pouvoirs à la ville chaque jour.
+capitol-name: Capitole
+capitol-desc: La structure centrale d'une ville. Produit 768 puissances par jour. Agit
+  également comme port d'attache.
+city_hall-name: Palais de la Mairie
+city_hall-desc: La structure centrale d'une ville. Produit 576 puissances par jour. Agit
+  également comme port d'attache.
+council_room-desc: La structure centrale d'une ville. Produit 192 puissances par jour. Agit
+  également comme port d'attache.
+embassy-name: Ambassade
+embassy-desc: Produit 192 puissances par jour. Agit également comme port d'attache.
+library-name: Bibliothèque
+smithy-name: Forge
+town_hall-name: Mairie
+town_hall-desc: La structure centrale d'une ville. Produit 384 puissances par jour. Agit
+  également comme port d'attache.
+warehouse-name: Entrepôt
+item-jade-name: Jade
+item-jade-desc: Échangez 16 Jade dans un Magasin de Jade pour 1000 $
+farms-name: Fermes
+farms-desc: Toutes les structures productrices d'aliments, d'animaux et de matériaux
+  naturels.
+towns-name: Villes
+towns-desc: Toutes les améliorations de la ville, les camps de guerre et les villes
+  minières.
+shops-name: Magasins
+shops-desc: Magasins pour vendre des biens au serveur. 3 max par joueur.
+utilities-name: Utilitaires
+quarries-name: Carrières
+factories-name: Usines
+mines-name: Mines
+animals-name: Fermes Animales
+npchousing-name: Logement de PNJ
+admin-name: Admin
+admin-desc: Articles pour les admins uniquement

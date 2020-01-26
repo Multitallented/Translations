@@ -4,7 +4,8 @@ block content
     if (message)
         h4 #{message}
     .right
-        a.toggle-finished Hide Finished Translations
+        a.toggle-finished.bttn Hide Finished Translations
+        a(href="/translations/" + languages[0] + ".yml").bttn.raw-translation Raw Translation File
     .clearfix
     if (languages.length > 1)
         h4 Select Language

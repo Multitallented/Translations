@@ -1,7 +1,10 @@
+var selectedLang = "";
+
 $('select.lang-select').change(function(event) {
-  var selectedLang = $('select.lang-select').val();
+  selectedLang = $('select.lang-select').val();
   $('.lang').addClass('hide');
   $('.lang.' + selectedLang).removeClass('hide');
+  $('.raw-translation').attr('href', '/translations/' + selectedLang + '.yml');
 });
 
 $('a.toggle-finished').click(function(event) {
